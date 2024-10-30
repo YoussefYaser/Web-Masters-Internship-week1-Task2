@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+    <!-- start font awesome -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- end font awesome -->
+    <link rel="stylesheet" href="style/main.css">
+
+</head>
+<body>
+    
+    <main draggable="false" class="page">
+        <div class="container">
+            <h1>trending TV-series</h1>
+            <div class="slider">
+                <span class="arrow-left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </span>
+                <div draggable="false" class="main-slider">
+                    <div draggable="false" class="slides">
+                        <div draggable="false">
+                            <img draggable="false" src="assets/the walking dead.png" alt="">
+                        </div>
+                        <div draggable="false">
+                            <img draggable="false" src="assets/Daredevil.jpg" alt="">
+                        </div>
+                        <div draggable="false">
+                            <img draggable="false" src="assets/peaky blinders.png" alt="">
+                        </div>
+                        <div draggable="false">
+                            <img draggable="false" src="assets/the last of us.jpg" alt="">
+                        </div>
+                        <div draggable="false">
+                            <img draggable="false" src="assets/the bear.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <span class="arrow-right">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+            </div>
+            <div class="slider-pagination">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </main>
+
+    <audio id="twd" controls>
+        <source src="audio/the waling dead.mp3" >
+    </audio>
+    <audio id="daredevil" controls>
+        <source src="audio/Daredevil.mp3" >
+    </audio>
+    <audio id="peaky" controls>
+        <source src="audio/peaky blinders.mp3" >
+    </audio>
+    <audio id="theLastOfUs" controls>
+        <source src="audio/the last of us.mp3" >
+    </audio>
+    <button id="audio-play">play</button>
+    <script src="js/main.js"></script>
+</body>
+</html>
